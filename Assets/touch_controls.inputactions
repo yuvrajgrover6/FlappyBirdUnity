@@ -1,0 +1,34 @@
+{
+    "name": "touch_controls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "7f409c89-26ee-478b-a475-b56ae83a6595",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "ec10c0a2-3254-43ab-9487-3c7e9b1b07c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "41856669-4649-44f3-9f65-65afb112b235",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
